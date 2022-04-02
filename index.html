@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nobus - Custom software company. Web and mobile development</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&family=Montserrat:wght@600&family=Open+Sans&family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <!-- generics -->
+  <link rel="icon" href="./images/favicon/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="./images/favicon/favicon-128.png" sizes="128x128">
+  <link rel="icon" href="./images/favicon/favicon-192.png" sizes="192x192">
+  <!-- Android -->
+  <link rel="shortcut icon" sizes="196x196" href=“./images/favicon/favicon-196.png">
+  <!-- iOS -->
+  <link rel="apple-touch-icon" href="path/to/favicon-152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="path/to/favicon-180.png" sizes="180x180">
+
+  <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+  <label for="menu-toggler" class="mobile-only menu-toggler"><span></span></label>
+  <input type="checkbox" id="menu-toggler" class="mobile-only hidden">
+
+  <header id="headerEl">
+  <div class="wrapper">
+    <a href="/" class="logo">
+      <svg height="33" viewBox="0 0 34 33" width="34" xmlns="http://www.w3.org/2000/svg"><g fill="none"><path d="m31.6572807.05815789h-9.1203509c-1.2541228 0-2.2696491 1.01701755-2.2696491 2.26964913v10.22684208c0 .9976316-1.1512281 1.5538597-1.9326316.9364913l-16.66149121-13.17500005c-.210503-.16658417-.47120629-.25698934-.73964912-.25649123-.87982456 0-1.26605263 1.11096492-.57561403 1.65675439l31.63789476 25.02877189c.7814035.6188597 1.9326316.0611404 1.9326316-.935v-23.48236838c-.0014913-1.25412281-1.0185088-2.26964913-2.2711404-2.26964913z" fill="#0a1244" id="logo1"/><path d="m10.5608772 32.3342982c1.647807 0 2.9824561-1.3346491 2.9824561-2.9824561v-9.6079825c0-.9976315 1.1512281-1.5538596 1.9326316-.935l16.7718421 13.2674562c.2103577.1670251.4710459.2579824.7396491.2579824.8842983 0 1.2735088-1.1169298.5785965-1.6657017l-31.63789471-25.02877194c-.77842105-.61587719-1.92219298-.06114035-1.92219298.93052632v22.78149122c0 1.647807 1.33464913 2.9824561 2.98245614 2.9824561h4.05912281z" id="logo2" fill="#10c8d2"/></g></svg>
+      <span>NOBUS</span>
+    </a>
+
+    <menu id="menu">
+      <ul class="no-style">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About Us</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </menu>
+  </div>
+</header>
+
+
+  <div id="backSlider">
+    <div class="slide1"></div>
+    <div class="slide2"></div>
+  </div>
+
+  <section class="firstScreen" id="home">
+    <div class="firstSection__content text-center wrapper">
+      <h1>Software company for <span>your business</span></h1>
+
+      <h5>Intelligent software from idea to consummation</h5>
+      <a href="#contact" class="btn-green nav-link">Start a project with us</a>
+    </div>
+    <div class="mouse"><span></span></div>
+  </section>
+
+  <section id="about">
+  <div class="wrapper">
+
+    <div class="greatAt innerBlock">
+      <div class="greatAt__left">
+        <h2>Who we are</h2>
+        <p>
+          <div>
+            We are a team of professionals: designers, and developers.
+            <br>
+            Since 2011, our specialization is creating special, custom solutions for our clients.
+            <br>
+            The scheme by which we work can be represented as follows: <br>
+            The idea - Prototype - Design - Development - MVP - product.
+            <br>
+            <br>
+            We will help you achieve the goals of the business.
+          </div>
+        </p>
+      </div>
+      <div class="greatAt__right">
+        <div id="clientsOnMap">
+          <picture>
+            <source
+              srcset="./images/map/clients-on-map@2x.webp 2x,
+                      ./images/map/clients-on-map@1x.webp" type='image/webp'>
+            <img
+              srcset="./images/map/clients-on-map@2x.png 2x"
+              src="./images/map/clients-on-map@1x.png" alt="Our clients">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- START .aboutProfs -->
+  <div class="aboutProfs">
+    <div class="wrapper">
+      <div class="aboutProfs__knowledge text-center">
+        <h2><span>01</span> Knowledge</h2>
+        <p>
+          Every day, every new project ... we always learn something new in order to write really high-quality code
+          for your business.
+        </p>
+      </div>
+
+      <div class="aboutProfs__experience text-center">
+        <h2><span>02</span> Experience</h2>
+        <p>
+          We already have experience in managing projects for both small businesses and those that have developed
+          over 2 years. Our code was licensed, we were a team and poured into large projects, helping to find and
+          write new solutions.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- END .aboutProfs -->
+  <div class="wrapper">
+    <!-- START .profsItems -->
+    <div class="profsItems innerBlock">
+      <ul class="no-style">
+        <li class="profsItem">
+          <img src="./images/icons/websites.svg" class="svg-websites-dims profsItem__ico" alt="Sites">
+          <h3 class="profsItem__title">Sites</h3>
+          <p class="profsItem__description">
+            Promo sites, personal webpages, business card sites, corporate sites.
+          </p>
+        </li>
+        <li class="profsItem">
+          <img src="./images/icons/services.svg" class="svg-websites-dims profsItem__ico" alt="Services">
+          <h3 class="profsItem__title">Services</h3>
+          <p class="profsItem__description">
+            Real estate agencies, online trading platforms, financial planning services.
+          </p>
+        </li>
+        <li class="profsItem">
+          <img src="./images/icons/mobile_applications.svg" class="svg-websites-dims profsItem__ico" alt="Mobile Applications">
+          <h3 class="profsItem__title">Mobile Applications</h3>
+          <p class="profsItem__description">
+            iOS and Android apps written with Nativescript & Angular
+          </p>
+        </li>
+      </ul>
+    </div>
+    <!-- END .profsItems -->
+  </div>
+</section>
+
+
+  <section id="technologies">
+    <div class="wrapper">
+      <h2 class="technologies__title text-center">Technologies that we own</h2>
+      <dl>
+        <div>
+          <dt>UI/UX Design</dt>
+          <dd>
+            Adobe Photoshop, Adobe Illustrator, Adobe XD, Sketch, Axure, Balsamiq Warframe
+          </dd>
+        </div>
+        <div>
+          <dt>Server side</dt>
+          <dd>Ruby on Rails, Nginx</dd>
+        </div>
+        <div>
+          <dt>Client side development</dt>
+          <dd>JavaScript, CoffeeScript, Typescript, Angular, React, HTML5, CSS3, SASS, LESS, Bootstrap</dd>
+        </div>
+        <div>
+          <dt>Mobile apps</dt>
+          <dd>
+            Android and iOS with Nativescript and Angular
+          </dd>
+        </div>
+        <div>
+          <dt>Databases</dt>
+          <dd>PostgreSQL, MySQL, MongoDB, Redis</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrapper">
+      <h2 class="text-center">Contact us</h2>
+      <p class="text-center">
+        With the Internet spreading linke wildfire and reaching every part of our daily life, more and more traffic is
+        directed to websites in search for information.
+      </p>
+
+      <ul class="no-style text-center">
+        <li><a href="mailto:eugene.kurennyy+nobuswebsite@gmail.com">Email</a></li>
+        <li><a href="https://join.skype.com/invite/iSTaWBLqCduF">Skype</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="team">
+    <h2 class="text-center">
+      The team
+    </h2>
+
+    <div class="wrapper">
+      <ul class="teammates">
+        <li>
+          <img src="./images/team/marina.jpeg" alt="Maryna Tararoshchenko">
+          <div class="teammate__name">Maryna Tararoshchenko</div>
+          <ul class="teammate__skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>Angular</li>
+            <li>Nativescript</li>
+            <li>Git</li>
+            <li>Typescript</li>
+          </ul>
+        </li>
+        <li>
+          <img src="./images/team/dmitriy.jpeg" alt="Dmitriy Tararoshenko">
+          <div class="teammate__name">Dmitriy Tararoshenko</div>
+          <ul class="teammate__skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>Angular</li>
+            <li>Typescript</li>
+            <li>Wordpress</li>
+          </ul>
+        </li>
+        <li>
+          <div class="hello" data-url="hello-url"></div>
+
+          <img src="./images/team/eugene.jpeg" alt="Eugene Kurennyy">
+          <div class="teammate__name">Eugene Kurennyy</div>
+          <ul class="teammate__skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>jQuery</li>
+            <li>JavaScript</li>
+            <li>Typescript</li>
+            <li>CoffeeScript</li>
+            <li>Angular</li>
+            <li>XML</li>
+            <li>d3.js</li>
+            <li>SVG</li>
+            <li>Canvas</li>
+            <li>PostgreSQL</li>
+            <li>Unix</li>
+            <li>Ruby on Rails</li>
+            <li>Git</li>
+            <li>Unix</li>
+            <li>TDD/BDD</li>
+            <li>Rspec</li>
+            <li>Capybara</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="text-center">
+    © Nobus 2020-2022
+  </footer>
+
+  <script src="./js/main.min.js"></script>
+</body>
+
+</html>
